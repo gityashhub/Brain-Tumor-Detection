@@ -71,7 +71,7 @@ st.write("Upload an MRI image to predict the presence of a brain tumor.")
 uploaded_file = st.file_uploader("Choose an MRI image...", type=["jpg", "jpeg", "png"])
 
 if uploaded_file is not None:
-    st.image(uploaded_file, caption='Uploaded Image.', use_container_width=True)
+    st.image(uploaded_file, caption='Uploaded Image.')
     st.write("Classifying...")
 
     # Predict and display the result
