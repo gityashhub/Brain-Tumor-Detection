@@ -1,0 +1,7 @@
+streamlit==1.30.0
+tensorflow==2.18.0
+numpy==1.26.0
+pandas==2.1.4
+gdown==4.7.1
+fpdf==1.7.2
+
